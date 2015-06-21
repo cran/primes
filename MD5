@@ -1,0 +1,12 @@
+a0e1df72a1d52b8efa15eeaf1a83379e *DESCRIPTION
+bed69051c52ba62f58628546889f24db *LICENSE
+38bc5526ebece8275affa45e7e7e3504 *NAMESPACE
+aaf07f88cc96cb72efdbb4994bf44eee *R/RcppExports.R
+ff4bf60dee845dd038f0200810322a7b *R/primes.R
+94962a1a058e36fa8be56a052b1af4cc *README.md
+1ee5600a76ab1d12d21ec7f003c10dae *man/prime.Rd
+6cbe6be68ab0e433e95320a7b4deeed4 *man/primes.Rd
+73e720f362182c55dd13cff3520c77c5 *src/RcppExports.cpp
+c980cf936dbbf7c91ba885239b877fd3 *src/primes.cpp
+a4e815eef896e651b406d775c0206ef4 *tests/testthat.R
+22d0ca3a1345346055c2dfda1eeba2bf *tests/testthat/test_primality.R
