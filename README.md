@@ -1,11 +1,11 @@
-Prime Numbers in R
-==================
+Fast Functions for Prime Numbers in R
+=====================================
 
-[![CRAN version](http://www.r-pkg.org/badges/version/primes)](https://cran.r-project.org/package=primes)
+[![CRAN version](https://www.r-pkg.org/badges/version/primes)](https://cran.r-project.org/package=primes)
 [![Number of Downloads](https://cranlogs.r-pkg.org/badges/grand-total/primes)](https://cran.r-project.org/package=primes)
 
 **Authors**: Os Keyes and Paul Egeler  
-**License**: [MIT](http://opensource.org/licenses/MIT)  
+**License**: [MIT](https://opensource.org/licenses/MIT)  
 
 ## Description
 
@@ -18,7 +18,10 @@ functions include:
 - finding or estimating the n<sup>th</sup> prime
 - estimating the number of primes less than or equal to an arbitrary number
 - computing primorials
-- finding prime k-tuples (e.g., twin primes).
+- finding prime k-tuples (e.g., twin primes)
+- finding the greatest common divisor and smallest (least) common multiple
+- testing whether two numbers are coprime
+- computing Euler's totient (phi)
 
 The package also provides an R dataset containing the first one thousand primes.
 
