@@ -5,33 +5,19 @@ gcd_ <- function(m, n) {
     .Call('_primes_gcd_', PACKAGE = 'primes', m, n)
 }
 
-#' Find the Greatest Common Divisor, Smallest Common Multiple, or Coprimality
-#'
-#' These functions provide vectorized computations for the greatest common
-#' divisor (`gcd`), smallest common multiple (`scm`), and coprimality. Coprime
-#' numbers are also called _mutually prime_ or _relatively prime_ numbers.
-#' The smallest common multiple is often called the _least common multiple_.
-#'
-#' The greatest common divisor uses Euclid's algorithm, a fast and widely
-#' used method. The smallest common multiple and coprimality are computed using
-#' the gcd, where \eqn{scm = \frac{a}{gcd(a, b)} \times b}{scm = a / gcd(a, b) * b}
-#' and two numbers are coprime when \eqn{gcd = 1}.
-#'
-#' @param m,n integer vectors.
-#'
-#'@examples
-#' gcd(c(18, 22, 49, 13), 42)
-#' ## [1] 6 2 7 1
-#'
-#' scm(60, 90)
-#' ## [1] 180
-#'
-#' coprime(60, c(77, 90))
-#' ## [1]  TRUE FALSE
-#' @return A vector of the length of longest input vector. If one
-#'   vector is shorter, it will be recycled. The `gcd` and `scm` functions
-#'   return an integer vector while `coprime` returns a logical vector.
-#' @author Paul Egeler, MS
+Rgcd_ <- function(x) {
+    .Call('_primes_Rgcd_', PACKAGE = 'primes', x)
+}
+
+scm_ <- function(m, n) {
+    .Call('_primes_scm_', PACKAGE = 'primes', m, n)
+}
+
+Rscm_ <- function(x) {
+    .Call('_primes_Rscm_', PACKAGE = 'primes', x)
+}
+
+#' @rdname gcd
 #' @export
 gcd <- function(m, n) {
     .Call('_primes_gcd', PACKAGE = 'primes', m, n)
@@ -80,6 +66,12 @@ is_prime <- function(x) {
 #' @export
 k_tuple <- function(min, max, tuple) {
     .Call('_primes_k_tuple', PACKAGE = 'primes', min, max, tuple)
+}
+
+#' @rdname k_tuple
+#' @export
+sexy_prime_triplets <- function(min, max) {
+    .Call('_primes_sexy_prime_triplets', PACKAGE = 'primes', min, max)
 }
 
 #' Find the Next and Previous Prime Numbers
@@ -140,37 +132,6 @@ prime_count <- function(n, upper_bound) {
 #' @export
 nth_prime_estimate <- function(n, upper_bound) {
     .Call('_primes_nth_prime_estimate', PACKAGE = 'primes', n, upper_bound)
-}
-
-#' Perform Prime Factorization on a Vector
-#'
-#' Compute the prime factors of elements of an integer vector.
-#'
-#' @param x an integer vector.
-#'
-#' @examples
-#' prime_factors(c(1, 5:7, 99))
-#' ## [[1]]
-#' ## integer(0)
-#' ##
-#' ## [[2]]
-#' ## [1] 5
-#' ##
-#' ## [[3]]
-#' ## [1] 2 3
-#' ##
-#' ## [[4]]
-#' ## [1] 7
-#' ##
-#' ## [[5]]
-#' ## [1]  3  3 11
-#'
-#' @return A list of integer vectors reflecting the prime factorizations of
-#'   each element of the input vector.
-#' @author Paul Egeler, MS
-#' @export
-prime_factors <- function(x) {
-    .Call('_primes_prime_factors', PACKAGE = 'primes', x)
 }
 
 generate_primes_ <- function(min, max) {
