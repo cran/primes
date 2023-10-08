@@ -1,4 +1,9 @@
+#include <Rcpp.h>
+#include <vector>
+
 #include "primes.h"
+
+// [[Rcpp::interfaces(r, cpp)]]
 
 //' @rdname generate_primes
 //' @export

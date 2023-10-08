@@ -1,4 +1,8 @@
+#include <Rcpp.h>
+
 #include "primes.h"
+
+// [[Rcpp::interfaces(r, cpp)]]
 
 //' Find the Next and Previous Prime Numbers
 //'
@@ -20,7 +24,7 @@
 //' @author Paul Egeler, MS
 //' @export
 // [[Rcpp::export]]
-Rcpp::IntegerVector next_prime(const Rcpp::IntegerVector& x) {
+Rcpp::IntegerVector next_prime(const Rcpp::IntegerVector &x) {
 
   Rcpp::IntegerVector out(x.size());
   auto it = out.begin();
@@ -37,7 +41,7 @@ Rcpp::IntegerVector next_prime(const Rcpp::IntegerVector& x) {
 //' @rdname next_prime
 //' @export
 // [[Rcpp::export]]
-Rcpp::IntegerVector prev_prime(const Rcpp::IntegerVector& x) {
+Rcpp::IntegerVector prev_prime(const Rcpp::IntegerVector &x) {
 
   Rcpp::IntegerVector out(x.size());
   auto it = out.begin();
