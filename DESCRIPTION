@@ -1,8 +1,8 @@
 Package: primes
 Type: Package
 Title: Fast Functions for Prime Numbers
-Version: 1.5.0
-Date: 2023-10-08
+Version: 1.5.1
+Date: 2023-11-07
 Authors@R: c(
     person("Os", "Keyes", email = "ironholds@gmail.com", role = c("aut", "cre")),
     person("Paul", "Egeler", email = "paulegeler@gmail.com", role = c("aut"), comment = c(ORCID = "0000-0001-6948-9498"))
@@ -27,9 +27,9 @@ RoxygenNote: 7.2.3
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2023-10-08 15:55:27 UTC; ironholds
+Packaged: 2023-11-07 19:08:41 UTC; ironholds
 Author: Os Keyes [aut, cre],
   Paul Egeler [aut] (<https://orcid.org/0000-0001-6948-9498>)
 Maintainer: Os Keyes <ironholds@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-10-08 17:40:02 UTC
+Date/Publication: 2023-11-08 09:50:02 UTC
