@@ -1,4 +1,4 @@
-0084dc61cb82ff9d70b97d9f8777f15a *DESCRIPTION
+74133ab02e0da763063ae03696793ff4 *DESCRIPTION
 f5d62b2f29a96fb8ba59c353c7ce8523 *LICENSE
 ed9f49735ce5a4ae8df434ca679c7380 *NAMESPACE
 e30938c5c70f5960e9bea2ee7db6cf04 *R/RcppExports.R
@@ -27,7 +27,7 @@ e0a7b8c8bcaba5b141ffceb5c3ca9999 *man/prime_count.Rd
 a5350caaf136f50f29e84ac52f14306b *man/primes.Rd
 31f31783df51f32115a35ad7434a6ab1 *man/primorial.Rd
 43895dd736614faa7e078ead3c2db8b5 *man/ruth_aaron_pairs.Rd
-8a39f872381290b43925912485d06d8f *src/RcppExports.cpp
+17855bf57576694bdbf79bc41865d952 *src/RcppExports.cpp
 e455faf25cc224891aa81ce8fc3c486a *src/gcd.cpp
 8398d1d6e31c232c38282eea5a5b3cb3 *src/generate_n_primes.cpp
 4104567f8a4d00603c77d00693357ec6 *src/is_prime.cpp
@@ -38,6 +38,7 @@ e455faf25cc224891aa81ce8fc3c486a *src/gcd.cpp
 883a239d8714b07c1efc9683f2364fcf *src/prime_factors.cpp
 2b7492c27ed86bc4a1ddfc49f1b575f9 *src/primes.h
 04cfa9fa73bab4807ecf32a733cf3a24 *src/sieve.cpp
+7e944a524ab87c01da18f9e05a95533b *tests/failures/testthat.Rout
 a4e815eef896e651b406d775c0206ef4 *tests/testthat.R
 e9f494648ee46fa89102bd7c999547f1 *tests/testthat/test_gcd.R
 d7941dcc624b2e50b01ee5069c0500b3 *tests/testthat/test_generate_primes.R
