@@ -1,11 +1,11 @@
-74133ab02e0da763063ae03696793ff4 *DESCRIPTION
+4e3d932c7a3d9cf786a469edf5274280 *DESCRIPTION
 f5d62b2f29a96fb8ba59c353c7ce8523 *LICENSE
 ed9f49735ce5a4ae8df434ca679c7380 *NAMESPACE
 e30938c5c70f5960e9bea2ee7db6cf04 *R/RcppExports.R
 99b0db39492aa59714030e4fe83c4b94 *R/data.R
 25844cd476fd98eac0cf7dddfa6f5218 *R/gcd.R
 2cab99efe0d4a2bdd1f7d342d3e84912 *R/k_tuple.R
-15fc9817aebc28591df05e616e8dcfea *R/phi.R
+0cf1a8ea08c20049434e5f2d8c3a9d6d *R/phi.R
 1d978925a23df89431180cebf2b25609 *R/prime_count.R
 5d5b611e2c19ef578f7fcc98920a7c76 *R/primes-package.R
 4dbaf2edbcd4bdb3ca2afdbc4476a9db *R/primorial.R
@@ -46,7 +46,7 @@ d7941dcc624b2e50b01ee5069c0500b3 *tests/testthat/test_generate_primes.R
 277f9fa88fa75b096c73545983add4d1 *tests/testthat/test_k_tuple.R
 82880712e1edfad6bb7af60cb12c8d62 *tests/testthat/test_next_prime.R
 2ab1402a3a06f1cd609e5b583e5c1f7d *tests/testthat/test_nth_prime.R
-81a492c9fefdf5c7d52b67742d17e873 *tests/testthat/test_phi.R
+a0033c074b248340839038529ec9e840 *tests/testthat/test_phi.R
 5fd715d2e26be04ea1a528b8721f7b82 *tests/testthat/test_prime_count.R
 647734c10614cf8f704e6219c58af6cf *tests/testthat/test_prime_factors.R
 8ff57f285ca3939f702849668f24fd99 *tests/testthat/test_primorial.R
