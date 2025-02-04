@@ -34,7 +34,7 @@ phi_alt <- function(n) {
   # See Ironholds/primes#14 for details.
   vapply(
     prime_factors(n),
-    \(x) {
+    function(x) {
       runs <- rle(x)
       as.integer(prod(runs$values ** (runs$lengths - 1) * (runs$values - 1)))
       },

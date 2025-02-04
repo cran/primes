@@ -1,11 +1,11 @@
 Package: primes
 Type: Package
 Title: Fast Functions for Prime Numbers
-Version: 1.6.0
-Date: 2023-12-30
+Version: 1.6.1
+Date: 2025-01-28
 Authors@R: c(
-    person("Os", "Keyes", email = "ironholds@gmail.com", role = c("aut", "cre")),
-    person("Paul", "Egeler", email = "paulegeler@gmail.com", role = c("aut"), comment = c(ORCID = "0000-0001-6948-9498"))
+    person("Os", "Keyes", email = "ironholds@gmail.com", role = c("aut")),
+    person("Paul", "Egeler", email = "paulegeler@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6948-9498"))
     )
 Description: Fast functions for dealing with prime numbers, such as testing
     whether a number is prime and generating a sequence prime numbers.
@@ -27,9 +27,9 @@ RoxygenNote: 7.2.3
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2023-12-30 09:55:35 UTC; pablo
-Author: Os Keyes [aut, cre],
-  Paul Egeler [aut] (<https://orcid.org/0000-0001-6948-9498>)
-Maintainer: Os Keyes <ironholds@gmail.com>
+Packaged: 2025-02-04 04:18:09 UTC; pablo
+Author: Os Keyes [aut],
+  Paul Egeler [aut, cre] (<https://orcid.org/0000-0001-6948-9498>)
+Maintainer: Paul Egeler <paulegeler@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-09 00:40:05 UTC
+Date/Publication: 2025-02-04 08:10:02 UTC
